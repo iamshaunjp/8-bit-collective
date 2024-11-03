@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Bit Collective - Retro Gaming Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>8-Bit Collective</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>Welcome to the 8-Bit Collective</h2>
+            <p>Your ultimate source for retro gaming gear, classics, and collectibles. Level up your collection with us!</p>
+            <button id="open-modal" class="cta-button">Learn More</button>
+        </section>
+
+        <section class="gallery">
+            <h3>Our Collection</h3>
+            <div class="gallery-grid">
+                <img src="https://source.unsplash.com/300x300/?retro,gaming" alt="Retro Game">
+                <img src="https://source.unsplash.com/300x300/?arcade" alt="Arcade Game">
+                <img src="https://source.unsplash.com/300x300/?nintendo" alt="Nintendo Game">
+                <img src="https://source.unsplash.com/300x300/?gameboy" alt="Gameboy">
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close-button">&times;</span>
+            <h2>About 8-Bit Collective</h2>
+            <p>We are passionate about everything retro gaming, from consoles to cartridges. Whether you're a collector or just getting started, we’ve got something for you!</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
