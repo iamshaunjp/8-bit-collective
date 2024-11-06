@@ -130,3 +130,8 @@ body {
 .close-button:hover {
   color: #8e0e13;
 }
+
+.navbar p {
+  font-weight: bold;
+  color: red;
+}
