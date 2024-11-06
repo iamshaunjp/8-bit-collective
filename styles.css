@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #444;
+  color: #555;
   background-color: #f8f8f8;
 }
 
@@ -16,9 +16,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2.2rem;
   background-color: #b31217;
-  color: #fff;
+  color: #eee;
 }
 
 .navbar h1 {
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar a {
-  color: #fff;
+  color: #eee;
   text-decoration: none;
   font-weight: bold;
 }
