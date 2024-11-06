@@ -1,4 +1,4 @@
-// Modal functionality
+// comment
 const modal = document.getElementById("modal");
 const openModalButton = document.getElementById("open-modal");
 const closeModalButton = document.getElementById("close-modal");
